@@ -1,0 +1,30 @@
+body {
+    background-image: url('https://miro.medium.com/max/848/1*eTkbro695IQB_UPUGk1WSw.jpeg');
+    background-size: auto 100vh;
+    height: 100vh;
+  }
+  
+  img {
+    opacity: 0.6;
+  }
+  
+  .menu li{
+    list-style: none;
+  }
+  
+  .menu ul{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  a:hover{
+    text-decoration: underline;
+  }
+  
+  .site-title, .site-subtitle{
+    text-align: center;
+  }
