@@ -1,13 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-    background-image: url('https://miro.medium.com/max/848/1*eTkbro695IQB_UPUGk1WSw.jpeg');
-    background-size: auto 100vh;
-    height: 100vh;
+    background-color: #92a8d1;
   }
+
+header{
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
   
   img {
     opacity: 0.6;
   }
   
+  .menu{
+    position: fixed;
+    width: 100vw;
+    top: 0;
+  }
+
   .menu li{
     list-style: none;
   }
@@ -15,6 +32,11 @@ body {
   .menu ul{
     display: flex;
     justify-content: space-around;
+  }
+
+  .menu a{
+    display: block;
+    padding: 10px 20px;
   }
   
   a{
@@ -25,6 +47,19 @@ body {
     text-decoration: underline;
   }
   
-  .site-title, .site-subtitle{
+  .site-title, .site-subtitle, .portfolio {
+    text-align: center;
+  }
+
+  .img-portfolio {
+    width: 180px;
+  }
+
+  section {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  figcaption {
     text-align: center;
   }
