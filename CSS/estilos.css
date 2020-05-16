@@ -6,6 +6,7 @@
 
 body {
     background-color: #92a8d1;
+    height: 100vh;
   }
 
 header{
@@ -13,16 +14,14 @@ header{
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: white;
 }
-  
-  img {
-    opacity: 0.6;
-  }
-  
+
   .menu{
     position: fixed;
     width: 100vw;
     top: 0;
+    background-color: blueviolet;
   }
 
   .menu li{
@@ -37,6 +36,7 @@ header{
   .menu a{
     display: block;
     padding: 10px 20px;
+    color: white;
   }
   
   a{
@@ -49,6 +49,15 @@ header{
   
   .site-title, .site-subtitle, .portfolio {
     text-align: center;
+  }
+
+  .site-title{
+    size: 4em;
+    font-family: 'Gloria Hallelujah', cursive;
+  }
+
+  .site-subtitle{
+    font-family: 'Amatic SC', cursive;
   }
 
   .img-portfolio {
