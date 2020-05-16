@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #92a8d1;
+    background-color: blueviolet;
     height: 100vh;
   }
 
@@ -60,8 +60,13 @@ header{
     font-family: 'Amatic SC', cursive;
   }
 
+  .portfolio{
+    color: white;
+  }
+
   .img-portfolio {
-    width: 15em;
+    height: 150px;
+    width: 200px;
   }
 
   section {
@@ -71,4 +76,5 @@ header{
 
   figcaption {
     text-align: center;
+    color: white;
   }
