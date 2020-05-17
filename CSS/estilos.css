@@ -9,8 +9,29 @@ body {
     height: 100vh;
   }
 
+/* se a tela tiver pelo menos 400px vai carregar estes estilos */
+@media (min-width: 400px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+/* breakpoint */
+@media (min-width: 600px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+/* breakpoint */
+@media (min-width: 1200px) {
+  body {
+    font-size: 20px;
+  }
+}
+
 header{
-  height: 70vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,7 +68,7 @@ header{
     text-decoration: underline;
   }
   
-  .site-title, .site-subtitle, .portfolio {
+  .site-title, .site-subtitle {
     text-align: center;
   }
 
@@ -60,21 +81,47 @@ header{
     font-family: 'Amatic SC', cursive;
   }
 
-  .portfolio{
-    color: white;
-  }
+.portfolio {
+  padding: 2em;
+  height: 50vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+.portfolio h2 {
+    text-align: center;
+    color: whitesmoke;
+    margin-bottom: 1.5em;
+    font-size: 1.5em;
+}
 
   .img-portfolio {
-    height: 150px;
-    width: 200px;
+    height: 180px;
+    width: 240px;
   }
 
-  section {
-    display: flex;
-    justify-content: space-between;
+  .portfolio .grid {
+    display: grid;
+    gap: 2em;
   }
 
-  figcaption {
+  @media (min-width: 560px) {
+    .portfolio .grid {
+      grid-template-columns: 240px 240px;
+    }
+  }
+  
+  @media (min-width: 880px) {
+    .portfolio .grid {
+      grid-template-columns: repeat(3, 260px);
+      align-content: center;
+      justify-content: center;
+    }
+  }
+
+ .portfolio figure {
     text-align: center;
+  }
+
+  .grid figcaption {
     color: white;
   }
