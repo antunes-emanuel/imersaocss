@@ -68,8 +68,14 @@ header{
     text-decoration: underline;
   }
   
-  .site-title, .site-subtitle {
+  .site-title, .site-subtitle, .analise-dados {
     text-align: center;
+  }
+
+  .analise-dados {
+    font-size: 50px;
+    align-content: space-between;
+    padding: 20px;
   }
 
   .site-title{
@@ -81,13 +87,13 @@ header{
     font-family: 'Amatic SC', cursive;
   }
 
-.portfolio {
+.portfolio, .contato {
   padding: 2em;
-  height: 50vh;
+  min-height: 100vh;
   font-family: 'Roboto', sans-serif;
 }
 
-.portfolio h2 {
+.portfolio h2, .contato h2 {
     text-align: center;
     color: whitesmoke;
     margin-bottom: 1.5em;
@@ -124,4 +130,17 @@ header{
 
   .grid figcaption {
     color: white;
+  }
+
+  .contato .icons {
+    text-align: center;
+  }
+
+  .contato a {
+    color: whitesmoke;
+    font-size: 8em;
+  }
+
+  .contato a:hover {
+    text-decoration: none;
   }
