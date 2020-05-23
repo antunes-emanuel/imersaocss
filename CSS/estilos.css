@@ -87,6 +87,21 @@ header{
     font-family: 'Amatic SC', cursive;
   }
 
+  .sobre {
+    padding: 2em;
+    min-height: 80vh;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f7cac9;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .sobre p{
+    text-indent: 1.5em;
+    margin-bottom: 1.2em;
+    text-align: justify;
+  }
+
 .portfolio {
   padding: 2em;
   min-height: 80vh;
@@ -99,6 +114,7 @@ header{
   min-height: 40vh;
   font-family: 'Roboto', sans-serif;
   background-color: #92a8d1;
+  text-align: center;
 }
 
 .portfolio h2, .contato h2 {
@@ -106,6 +122,25 @@ header{
     color: whitesmoke;
     margin-bottom: 1.5em;
     font-size: 1.5em;
+}
+
+.sobre h2 {
+  text-align: center;
+  color: black;
+  margin-bottom: 1.5em;
+  font-size: 1.5em;
+}
+
+.sobre img {
+  height: 20em;
+  width: 20em;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.texto {
+  margin-top: 125px;
+  margin-bottom: auto;
 }
 
   .img-portfolio {
@@ -141,15 +176,21 @@ header{
   }
 
   .contato .icons {
+    margin-bottom: 1.5em;
     text-align: center;
   }
 
-  .contato a {
+  .contato .icons a {
     color: whitesmoke;
     font-size: 8em;
   }
 
-  .contato a:hover {
+  .contato .icons a:hover {
     text-decoration: none;
     text-shadow: 0px 0px 10px aqua;
+  }
+
+  .avatar{
+    float: left;
+    margin-right: 2em;
   }
